@@ -44,6 +44,9 @@ public class WeatherInfo {
     private int windDirection;
     private String speedUnit;
     private long timestamp;
+    private long sunRise;
+    private long sunset;
+    private long pressure;
 
     public WeatherInfo(Context context,
             String city, String fdate, String condition, int conditionCode,

@@ -16,6 +16,16 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <string-array name="weather_provider_entries" translatable="false">
+        <item>@string/weather_source_yahoo</item>
+        <item>@string/weather_source_open_weather</item>
+    </string-array>
+    
+    <string-array name="weather_provider_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    
     <string-array name="weather_interval_entries" translatable="false">
         <item>@string/weather_refresh_manual</item>
         <item>@string/weather_refresh_30min</item>
