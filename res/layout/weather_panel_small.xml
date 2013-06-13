@@ -111,4 +111,17 @@
 
         </RelativeLayout>
 
+    <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/weather_update_progress"
+            android:layout_centerHorizontal="true"
+            android:layout_alignLeft="@+id/weather_image"
+            android:layout_alignRight="@+id/weather_temps_panel"
+            android:layout_below="@+id/weather_image"
+            android:visibility="invisible"
+            android:indeterminateBehavior="repeat"
+            android:indeterminateOnly="true"/>
+
 </RelativeLayout>
